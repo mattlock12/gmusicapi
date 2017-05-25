@@ -41,7 +41,7 @@ class Musicmanager(_Base):
     :func:`perform_oauth` should be run once per machine to
     store credentials to disk.
     Future calls to :func:`login` can use
-    use the stored credentials by default.
+    the stored credentials by default.
 
     Some authors may want more control over the OAuth flow.
     In this case, credentials can be directly provided to :func:`login`.
